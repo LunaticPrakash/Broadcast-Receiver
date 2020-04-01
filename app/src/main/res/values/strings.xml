@@ -2,4 +2,5 @@
     <string name="app_name">BroadcastReceiver</string>
     <string name="see_the_logcat_and_toast_for_broadcast_services">See the Logcat and Toast for broadcast services</string>
     <string name="broadcast_receiver">Broadcast Receiver</string>
+    <string name="toast_may_not_come_in_proper_order_beacuse_lots_of_toasts_are_used_so_you_can_see_logcat_results_in_case_of_any_confusion">Toast may not come in proper order beacuse lots of toasts are used, so you can see logcat results in case of any confusion.</string>
 </resources>
