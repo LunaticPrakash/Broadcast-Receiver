@@ -76,7 +76,7 @@ public class MyReceiver extends BroadcastReceiver {
             Log.d(TAG, "Battery is Low");
         }
 
-        //when headphone or earphone is plugged in
+        //when headphone or earphone is plugged in or out
         if (Intent.ACTION_HEADSET_PLUG.equals(intent.getAction())) {
             int state = intent.getIntExtra("state", -1);
             if(state == 1){
