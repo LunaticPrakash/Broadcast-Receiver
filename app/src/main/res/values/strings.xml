@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BroadcastReceiver</string>
+    <string name="see_the_logcat_and_toast_for_broadcast_services">See the Logcat and Toast for broadcast services</string>
+    <string name="broadcast_receiver">Broadcast Receiver</string>
+</resources>
