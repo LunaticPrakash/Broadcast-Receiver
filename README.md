@@ -39,6 +39,9 @@ All these above mentioned Broadcast Receivers gets triggered whenever those even
 ![Logcat Result](app/src/main/res/drawable/LogcatResult.png)
 Here "Connected to parrot" is result of my phone's bluetooth connected to my laptop "parrot".
 
+![Logcat Result](app/src/main/res/drawable/LogcatResult2.png)
+Here you can see Power Connected/Disconnected and Headphone Plug in/out broadcast receivers.
+
 ## Bugs and Improvements :-
 No bugs.
 However, as multiple Toast messages will overlap each other so, you might not see toast messages in proper order. But as code is completely valid and sequential, so you will get correct result in logcat. And if you replace these Toasts and logcat messages with your own action you will not face any problem. It's just Toasts aren't reliable when used in bulk.
