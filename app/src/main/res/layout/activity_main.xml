@@ -9,19 +9,30 @@
         android:id="@+id/heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="20sp"
+      android:layout_centerHorizontal="true"
+        android:textSize="25sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:text="@string/broadcast_receiver"
         />
 
     <TextView
-        android:layout_below="@+id/heading"
+        android:id="@+id/desc1"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="@string/see_the_logcat_and_toast_for_broadcast_services"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_below="@+id/desc1"
         android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:text="@string/see_the_logcat_and_toast_for_broadcast_services"
+        android:text="@string/toast_may_not_come_in_proper_order_beacuse_lots_of_toasts_are_used_so_you_can_see_logcat_results_in_case_of_any_confusion"
         android:layout_centerHorizontal="true"
         />
 
