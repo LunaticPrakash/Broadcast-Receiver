@@ -37,7 +37,7 @@ All these above mentioned Broadcast Receivers gets triggered whenever those even
 
 ## Screenshot :-
 ![Logcat Result](app/src/main/res/drawable/LogcatResult.png)
-Here "Connected to parrot" is result of bluetooth connected to mhy laptop "parrot".
+Here "Connected to parrot" is result of my phone's bluetooth connected to my laptop "parrot".
 
 ## Bugs and Improvements :-
 No bugs.
