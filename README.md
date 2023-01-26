@@ -36,10 +36,10 @@ Neither any extra dependency nor any third party module is required.
 All these above mentioned Broadcast Receivers gets triggered whenever those events happen, I have put Toast and Logcat messages when they get triggered but you can replace them with whatever you want to do, like changing wallpaper whenever your phone is charging, or like launching something when battery is low, or play some sound whenever bluetooth gets connected and much more. All these infinite possibilities are there, you can make whatever you want.
 
 ## Screenshot :-
-![Logcat Result](app/src/main/res/drawable/LogcatResult.png)
+![Logcat Result](https://user-images.githubusercontent.com/56812557/214741843-190a2679-0c0c-43ef-b369-10540d9039fb.png)
 Here "Connected to parrot" is result of my phone's bluetooth connected to my laptop "parrot".
 
-![Logcat Result](app/src/main/res/drawable/LogcatResult2.png)
+![Logcat Result](https://user-images.githubusercontent.com/56812557/214741838-f5e9ed78-d810-4dee-8d80-8bb063c2c173.png)
 Here you can see Power Connected/Disconnected and Headphone Plug in/out broadcast receivers.
 
 ## Bugs and Improvements :-
